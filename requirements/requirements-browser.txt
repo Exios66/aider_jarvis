@@ -31,7 +31,7 @@ gitdb==4.0.11
     # via
     #   -c requirements/../requirements.txt
     #   gitpython
-gitpython==3.1.43
+gitpython==3.1.50
     # via
     #   -c requirements/../requirements.txt
     #   streamlit
@@ -134,6 +134,7 @@ typing-extensions==4.12.2
     # via
     #   -c requirements/../requirements.txt
     #   altair
+    #   gitpython
     #   streamlit
 tzdata==2024.1
     # via pandas
@@ -142,4 +143,6 @@ urllib3==2.2.2
     #   -c requirements/../requirements.txt
     #   requests
 watchdog==4.0.2
-    # via -r requirements/requirements-browser.in
+    # via
+    #   -r requirements/requirements-browser.in
+    #   streamlit
