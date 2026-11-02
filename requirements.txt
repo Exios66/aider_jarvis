@@ -25,7 +25,7 @@ backoff==2.2.1
     # via -r requirements/requirements.in
 beautifulsoup4==4.12.3
     # via -r requirements/requirements.in
-certifi==2024.7.4
+certifi==2026.10.18
     # via
     #   httpcore
     #   httpx
